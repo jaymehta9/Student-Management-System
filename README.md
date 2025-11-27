@@ -1,126 +1,111 @@
-🎓 Student Management System
-Table of Contents
+# 🎓 Student Management System
 
-📝 Description
+## Table of Contents
+- [📝 Description](#description)  
+  - [Overview](#overview)  
+  - [User Roles & Access](#roles-access)  
+- [🔧 Technologies & Frameworks](#technologies--frameworks)  
+- [✨ Key Features](#key-features)  
+- [📸 Screenshots](#screenshots)  
+- [📋 TO-DO List](#todo)  
 
-Overview
+---
 
-Roles & Access
+## 📝 Description
 
-🔧 Technologies & Frameworks
+### Overview  
+Student Management System is a web application for managing school data — students, teachers, courses, enrollments, assignments, and grading.  
+It supports three user roles (Admin, Teacher, Student), with each role having different permissions and dashboards. The system aims to simulate real-world school operations and provide a clean, user-friendly interface.  
 
-✨ Key Features
+### User Roles & Access  
 
-📸 Screenshots
+**Admin**  
+- Add or delete students, teachers, and courses  
+- Enroll or remove students in courses  
+- Manage school data and view statistics  
 
-📋 TO-DO List
+**Teacher**  
+- View list of students in their courses  
+- Create and manage assignments  
+- Track assignment completion and grade exams  
 
-<a name="description"></a> 📝 Description
-<a name="overview"></a> Overview
+**Student**  
+- View enrolled courses  
+- See assignments and exam grades  
+- Mark assignments as completed  
 
-Welcome to Student Management System — a complete academic management application built to simplify the handling of student, teacher, and course data.
+---
 
-This project includes full role-based access, dashboards, assignment tracking, grading, and course management. Inspired by real academic workflows, the project aims to provide an intuitive and organized interface for all user types.
+## 🔧 Technologies & Frameworks
 
-The system is fully functional, scalable, and built using industry-level technologies like Spring Boot, Hibernate, and MySQL.
+### Backend  
+- Java  
+- Spring Boot  
+- Spring MVC  
+- Hibernate  
+- MySQL  
+- Maven  
 
-There is still more to build, but the system already covers all important operations smoothly.
-Thank you for exploring this project — wishing you a wonderful day! 😊
+### Frontend  
+- HTML  
+- CSS  
 
-<a name="roles"></a> 🎭 User Roles & Access
+---
 
-The system is built around three primary roles:
+## ✨ Key Features
 
-📇 Admin
+- ✅ Role-based access (Admin / Teacher / Student)  
+- ✅ Course management (create, delete, enroll, unenroll)  
+- ✅ Assignment system — create assignments, submit/mark completion, manage grades  
+- ✅ Exam grading and student performance tracking  
+- ✅ Clean and intuitive web interface  
+- ✅ Data persistence using MySQL and Hibernate  
 
-Add/Delete students, teachers, and courses
+---
 
-Enroll or remove students from courses
+## 📸 Screenshots
 
-Manage school data
-
-View school statistics
-
-Full control over the system
-
-🎓 Student
-
-View all enrolled courses
-
-Check grades and assignments
-
-Mark assignments as completed
-
-Track academic progress
-
-👨‍🏫 Teacher
-
-View student lists
-
-Create assignments
-
-Track student assignment completion
-
-Grade exams
-
-<a name="technologies"></a> 🔧 Technologies & Frameworks
-🚀 Backend
-
-Java
-
-Spring Boot
-
-Spring MVC
-
-Hibernate
-
-MySQL
-
-Maven
-
-🎨 Frontend
-
-HTML
-
-CSS
-
-<a name="features"></a> ✨ Key Features
-
-✔️ Secure Authentication
-✔️ Role-Based Dashboards (Admin, Teacher, Student)
-✔️ Student Enrollment Management
-✔️ Course Creation & Assignment System
-✔️ Exam Grading System
-✔️ Student Progress Tracking
-✔️ Clean, Easy-to-Use Interface
-
-<a name="screenshots"></a> 📸 Screenshots
-🖥️ Main Dashboard
+### Main Dashboard  
 <img src="https://user-images.githubusercontent.com/93772280/160869303-dc4db60e-df04-49bf-845d-cf34f3325b3f.PNG" width="800">
-📝 Registration View
+
+---
+
+### Registration View  
 <img src="https://user-images.githubusercontent.com/93772280/160870174-85f88ce8-b3b4-4185-9cc0-7136bfe38c9a.PNG" width="800">
-🛠️ Admin Dashboard
+
+---
+
+### Admin Dashboard  
 <img src="https://user-images.githubusercontent.com/93772280/160870030-35ca1bf8-8dbd-4390-9430-cc97ea217609.PNG" width="800">
-➕ Add New Course
+
+---
+
+### “Add New Course” View  
 <img src="https://user-images.githubusercontent.com/93772280/160871524-01f549b2-27d5-4612-b05c-4114b74a6de2.PNG" width="800">
-🎓 Student View
+
+---
+
+### Student View  
 <img src="https://user-images.githubusercontent.com/93772280/160871806-7d3a45f1-0896-426e-8fb7-4357847c27cb.PNG" width="800">
-👨‍🏫 Teacher View
+
+---
+
+### Teacher View  
 <img src="https://user-images.githubusercontent.com/93772280/160871896-6e12678c-d159-4916-b02c-d6d85967c30c.PNG" width="800">
-<a name="todo"></a> 📋 TO-DO List
 
- User authentication
+---
 
- Role-based access
+## 📋 TO-DO List
 
- Course management
+- [x] User authentication and role-based access  
+- [x] CRUD for students, teachers, courses  
+- [x] Enrollment management  
+- [x] Assignment creation and submission handling  
+- [x] Exam grading and performance tracking  
+- [ ] Dashboard enhancements and UI polishing  
+- [ ] Add notifications (email/SMS)  
+- [ ] Add analytics / reporting features  
 
- Assignment management
+---
 
- Exam grading
 
- Enhanced student analytics
-
- Email/SMS notifications
-
- Dashboard improvements
