@@ -1,16 +1,5 @@
 # 🎓 Student Management System
 
-## Table of Contents
-- [📝 Description](#description)  
-  - [Overview](#overview)  
-  - [User Roles & Access](#roles-access)  
-- [🔧 Technologies & Frameworks](#technologies--frameworks)  
-- [✨ Key Features](#key-features)  
-- [📸 Screenshots](#screenshots)  
-- [📋 TO-DO List](#todo)  
-
----
-
 ## 📝 Description
 
 ### Overview  
